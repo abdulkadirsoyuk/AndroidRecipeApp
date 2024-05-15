@@ -21,12 +21,14 @@ Bu proje, Android Studio kullanılarak Java programlama diliyle geliştirilmiş 
 
 ## Ekran Görüntüleri
 
-![Ekran Görüntüsü 1](ProjectScreenshots/splashScreen.png)
-![Ekran Görüntüsü 2](ProjectScreenshots/loginPage.png)
-![Ekran Görüntüsü 3](ProjectScreenshots/registerPage.png)
-![Ekran Görüntüsü 4](ProjectScreenshots/homePage.png)
-![Ekran Görüntüsü 5](ProjectScreenshots/addRecipePage.png)
-![Ekran Görüntüsü 6](ProjectScreenshots/addCategoryPage.png)
+<p align="center">
+  <img src="ProjectScreenshots/splashScreen.png" alt="Ekran Görüntüsü 1" width="300"/>
+  <img src="ProjectScreenshots/loginPage.png" alt="Ekran Görüntüsü 2" width="300"/>
+  <img src="ProjectScreenshots/registerPage.png" alt="Ekran Görüntüsü 3" width="300"/>
+  <img src="ProjectScreenshots/homePage.png" alt="Ekran Görüntüsü 4" width="300"/>
+  <img src="ProjectScreenshots/addRecipePage.png" alt="Ekran Görüntüsü 5" width="300"/>
+  <img src="ProjectScreenshots/addCategoryPage.png" alt="Ekran Görüntüsü 6" width="300"/>
+</p>
 
 # Recipe Application
 

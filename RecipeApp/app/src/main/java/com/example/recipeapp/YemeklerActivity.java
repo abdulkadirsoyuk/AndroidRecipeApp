@@ -124,7 +124,6 @@ public class YemeklerActivity extends AppCompatActivity {
                     yemekViewHolder.txtMalzemeler.setText(yemek.getMalzemeler());
                     yemekViewHolder.txtYapilis.setText(yemek.getYapilisi());
                     yemekViewHolder.txtPufNoktalar.setText(yemek.getPufNokta());
-                    yemekViewHolder.txtVideoLinki.setText(yemek.getIzlemeLinki());
                     Picasso.with(getBaseContext()).load(yemek.getResim()).into(yemekViewHolder.imageView);
 
                     final Yemek tiklandiginda = yemek;
@@ -213,7 +212,6 @@ public class YemeklerActivity extends AppCompatActivity {
         editMalzemeler=yeni_yemek_ekle_penceresi.findViewById(R.id.editMalzemeler);
         editYapilisi=yeni_yemek_ekle_penceresi.findViewById(R.id.editYapilis);
         editPufNokta=yeni_yemek_ekle_penceresi.findViewById(R.id.editPufNoktası);
-        editIzlemeLinki=yeni_yemek_ekle_penceresi.findViewById(R.id.editIzlemeLinki);
         btnYemekSec=yeni_yemek_ekle_penceresi.findViewById(R.id.btnYemekSec);
         btnYemekYukle=yeni_yemek_ekle_penceresi.findViewById(R.id.btnYemekYukle);
 
@@ -276,7 +274,6 @@ public class YemeklerActivity extends AppCompatActivity {
                             yeniYemek=new Yemek(editYemekAdi.getText().toString(),editMalzemeler.getText().toString(),
                                     editYapilisi.getText().toString(),
                                     editPufNokta.getText().toString(),
-                                    editIzlemeLinki.getText().toString(),
                                     turId,uri.toString());
 
                         });

@@ -19,7 +19,7 @@ public class YemekViewHolder extends RecyclerView.ViewHolder implements View.OnC
     public TextView txtMalzemeler;
     public TextView txtYapilis;
     public TextView txtPufNoktalar;
-    public TextView txtVideoLinki;
+
     public ImageView imageView;
 
     private ItemClickListener itemClickListener;
@@ -30,7 +30,6 @@ public class YemekViewHolder extends RecyclerView.ViewHolder implements View.OnC
         txtMalzemeler=itemView.findViewById(R.id.yemek_malzemeler);
         txtYapilis=itemView.findViewById(R.id.yemek_yapilisi);
         txtPufNoktalar=itemView.findViewById(R.id.yemek_puf_nokta);
-        txtVideoLinki=itemView.findViewById(R.id.video_izleme);
         imageView=itemView.findViewById(R.id.yemek_resmi);
         itemView.setOnClickListener(this);
         itemView.setOnCreateContextMenuListener(this);

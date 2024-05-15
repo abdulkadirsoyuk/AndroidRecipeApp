@@ -54,16 +54,7 @@
 
         </EditText>
 
-        <EditText
-            android:id="@+id/editIzlemeLinki"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="İzleme Linki"
-            android:text="Video Linki:"
-            android:inputType="text"
-            android:textSize="16sp">
 
-        </EditText>
 
 
 

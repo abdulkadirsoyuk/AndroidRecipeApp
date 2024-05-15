@@ -66,15 +66,7 @@
                 android:text="Püf Noktaları"
                 android:textSize="24sp" />
 
-            <TextView
-                android:id="@+id/video_izleme"
-                android:layout_width="match_parent"
-                android:layout_height="41dp"
-                android:layout_below="@id/yemek_puf_nokta"
-                android:layout_marginTop="8dp"
-                android:gravity="left"
-                android:text="Video Linki"
-                android:textSize="24sp" />
+
         </RelativeLayout>
 
     </androidx.cardview.widget.CardView>

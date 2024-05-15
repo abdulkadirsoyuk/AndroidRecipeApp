@@ -1,22 +1,19 @@
 package com.example.recipeapp.Model;
 
-
 public class Yemek {
     private String yemekAdi;
     private String malzemeler;
     private String yapilisi;
     private String pufNokta;
-    private String izlemeLinki;
     private String turId;
     private String resim;
 
 
-    public Yemek(String yemekAdi, String malzemeler, String yapilisi, String pufNokta, String izlemeLinki, String turId, String resim) {
+    public Yemek(String yemekAdi, String malzemeler, String yapilisi, String pufNokta, String turId, String resim) {
         this.yemekAdi = yemekAdi;
         this.malzemeler = malzemeler;
         this.yapilisi = yapilisi;
         this.pufNokta = pufNokta;
-        this.izlemeLinki = izlemeLinki;
         this.turId = turId;
         this.resim = resim;
     }
@@ -56,13 +53,6 @@ public class Yemek {
         this.pufNokta = pufNokta;
     }
 
-    public String getIzlemeLinki() {
-        return izlemeLinki;
-    }
-
-    public void setIzlemeLinki(String izlemeLinki) {
-        this.izlemeLinki = izlemeLinki;
-    }
 
     public String getTurId() {
         return turId;

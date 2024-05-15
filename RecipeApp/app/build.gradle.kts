@@ -48,6 +48,7 @@ dependencies {
   //  implementation("com.android.support:design:28.0.0")
     implementation("com.squareup.picasso:picasso:2.5.2")
     implementation ("androidx.appcompat:appcompat:1.0.0")
+
    // implementation("com.github.rengwuxian:MaterialEditText:2.1.4")
   //  implementation("com.amulyakhare:com.amulyakhare.textdrawable:1.0.1")
   //  implementation ('com.rengwuxian.materialedittext:library:2.1.4')
